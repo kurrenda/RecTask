@@ -1,7 +1,7 @@
 from decimal import Decimal
 
 
-def zad1(self):
+def zad1():
     first = "79-900"
     second = "80-155"
 
@@ -15,7 +15,7 @@ def zad1(self):
         res = str(x)
         print(res[0]+res[1]+"-"+res[2]+ res[3]+res[4])
 
-def zad2(self , n):
+def zad2(n):
 
     tab = [1,2,3,4,5,6,7,8,9,10]
 
@@ -28,7 +28,7 @@ def zad2(self , n):
     add = list(sorted(set1 - set2))
     print(add)
 
-def zad3(self):
+def zad3():
 
     lista = []
     first = Decimal(2)
