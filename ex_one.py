@@ -11,22 +11,20 @@ def zad1():
     secondSplit = second.split("-")
     secondResult = int((str(secondSplit[0]) + str(secondSplit[1])))
 
-    for x in range(firstResult, secondResult):
+    for x in range(firstResult+1, secondResult):
         res = str(x)
         print(res[0]+res[1]+"-"+res[2]+ res[3]+res[4])
 
-def zad2(n):
+def zad2(tab2,n):
 
-    tab = [1,2,3,4,5,6,7,8,9,10]
+    tab = []
 
-    tab2 = [2,3,7,4,9,10]
-    tab2.remove(n)
+    for i in range(1,n+1):
+        tab.append(i)
 
-    set1 = set(tab)
-    set2 = set(tab2)
+    print("Brakujące elementy tablicy:",set(tab).difference(set(tab2)))
 
-    add = list(sorted(set1 - set2))
-    print(add)
+
 
 def zad3():
 
@@ -41,9 +39,11 @@ def zad3():
 
 
 
+zad1()
 
+tab2 = [2,3,5,6]
+zad2(tab2,10)
 
-
-
+zad3()
 
 
