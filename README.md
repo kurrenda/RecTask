@@ -1,6 +1,6 @@
 # RecTask
 
-3 excercisse:
+3 functions in ex_one.py
 
 - zad1 - printing all values between inputed two post codes 
 - zad2 - printing missing elements between two arrays
